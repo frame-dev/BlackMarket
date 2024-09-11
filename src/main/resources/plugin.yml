@@ -1,0 +1,13 @@
+name: BlackMarket
+version: '1.0-SNAPSHOT'
+main: ch.framedev.blackMarket.BlackMarket
+api-version: '1.21'
+
+depends:
+  -  Vault
+
+commands:
+  blackmarket:
+    description: 'Commands for interacting with the black market.'
+    aliases: ['bm']
+    permission: blackmarket.command
