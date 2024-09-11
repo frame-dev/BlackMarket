@@ -69,6 +69,10 @@ public final class BlackMarket extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (command.getName().equalsIgnoreCase("blackmarket") && sender instanceof Player) {
+            if(!sender.hasPermission("blackmarket.bm")) {
+                sender.sendMessage("§cSorry you are not allowed to access the blackmarket!");
+                return true;
+            }
             if (args.length == 0) {
                 searches.remove(sender.getName());
                 ((Player) sender).openInventory(createGui(0, ""));

@@ -1,5 +1,6 @@
 
 # BlackMarket Plugin README
+## Minecraft Version `1.21 and later`
 
 ## Overview
 The `BlackMarket` plugin is a custom Bukkit plugin that allows players to buy and sell items through a virtual market using Vault's economy system. This plugin features a simple GUI to browse items, filter based on a search query, and manage transactions. Players can purchase or sell items in quantities of one or a stack at a time. The plugin also automatically loads item prices from a CSV file.
@@ -15,11 +16,12 @@ The `BlackMarket` plugin is a custom Bukkit plugin that allows players to buy an
 1. **Dependencies**: This plugin requires Vault to be installed and working with a compatible economy plugin.
 2. **Installation**:
     - Download and place the plugin JAR in the `plugins` directory.
-    - Make sure Vault is installed and configured also any Type of Economy System for Vault should be installed.
+    - Make sure Vault is installed and configured also any Type of `Economy System` for Vault should be installed.
     - Start the server and the plugin will automatically create a `materials.csv` file in `plugins/BlackMarket/` if one doesn’t already exist.
     - Update the `materials.csv` file with item data as needed.
 
 ## Commands
+**Permission:** `blackmarket.bm`
 - **/blackmarket**: Opens the Black Market GUI.
     - `/blackmarket [search term]`: Opens the market GUI filtered by the search term.
 

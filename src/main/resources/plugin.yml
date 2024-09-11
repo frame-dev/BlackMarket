@@ -10,4 +10,4 @@ commands:
   blackmarket:
     description: 'Commands for interacting with the black market.'
     aliases: ['bm']
-    permission: blackmarket.command
+    permission: blackmarket.bm
