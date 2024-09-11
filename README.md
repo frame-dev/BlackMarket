@@ -36,7 +36,7 @@ The `materials.csv` file should be structured as follows:
 | 1   | DIAMOND      | 100.0  | 50.0      |
 | 2   | GOLD_INGOT   | 50.0   | 25.0      |
 
-- **Id**: Unique identifier for the item.
+- **Id**: Unique identifier for the item. Should be unique across all items
 - **Item**: Material name (must be a valid Bukkit `Material` enum).
 - **Value**: Price to buy one unit of the item.
 - **SellValue**: Price to sell one unit of the item.
