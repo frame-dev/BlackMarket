@@ -42,4 +42,4 @@ The `materials.csv` file should be structured as follows:
 - **SellValue**: Price to sell one unit of the item.
 
 ## License
-This plugin is licensed under MIT.
+This plugin is licensed under MIT [LICENSE](https://github.com/frame-dev/BlackMarket/blob/master/LICENSE).
