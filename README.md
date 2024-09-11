@@ -15,7 +15,7 @@ The `BlackMarket` plugin is a custom Bukkit plugin that allows players to buy an
 1. **Dependencies**: This plugin requires Vault to be installed and working with a compatible economy plugin.
 2. **Installation**:
     - Download and place the plugin JAR in the `plugins` directory.
-    - Make sure Vault is installed and configured.
+    - Make sure Vault is installed and configured also any Type of Economy System for Vault should be installed.
     - Start the server and the plugin will automatically create a `materials.csv` file in `plugins/BlackMarket/` if one doesn’t already exist.
     - Update the `materials.csv` file with item data as needed.
 
@@ -31,10 +31,10 @@ The `BlackMarket` plugin is a custom Bukkit plugin that allows players to buy an
 ## CSV Format
 The `materials.csv` file should be structured as follows:
 
-| Id  | Item         | Value  | SellValue |
-| --- | ------------ | ------ | --------- |
-| 1   | DIAMOND      | 100.0  | 50.0      |
-| 2   | GOLD_INGOT   | 50.0   | 25.0      |
+| Id | Item       | Value | SellValue |
+|----|------------|-------|-----------|
+| 1  | DIAMOND    | 100.0 | 50.0      |
+| 2  | GOLD_INGOT | 50.0  | 25.0      |
 
 - **Id**: Unique identifier for the item. Should be unique across all items
 - **Item**: Material name (must be a valid Bukkit `Material` enum).
